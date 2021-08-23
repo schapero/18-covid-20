@@ -51,7 +51,7 @@ export const showDataOnMap = (data, casesType) =>
         casesTypeColors[casesType].mulitiplier
       }
     >
-      {/* <Popup>
+      <Popup>
         <div className="info-container">
           <div
             className="info-flag"
@@ -68,6 +68,7 @@ export const showDataOnMap = (data, casesType) =>
             Deaths: {numeral(country.deaths).format("0,0")}
           </div>
         </div>
-      </Popup> */}
+      </Popup>
     </Circle>
   ));
+

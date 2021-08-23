@@ -28,16 +28,12 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+   "not dead",
+   "not op_mini all"
+ ],
+ "react-leaflet": ">=3.1.0 <3.2.0 || ^3.2.1",
+"@react-leaflet/core": ">=1.0.0 <1.1.0 || ^1.1.1"
+
 }
