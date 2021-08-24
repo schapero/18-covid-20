@@ -3,7 +3,6 @@ import "./Table.css";
 import numeral from "numeral";
 
 function Table({countries}) {
-    console.log("yip");
     return (
         <div className="table">
             {countries.map(({country,cases}) => (
